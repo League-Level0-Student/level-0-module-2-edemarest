@@ -12,7 +12,7 @@ public class IntroToRandom {
 		
 		int r = rand.nextInt((75-25)+1) + 25;
 		
-		
+		System.out.println(r);
 		
 		//3. Now make r random. 
 		//   Create an object of the Random class

@@ -1,35 +1,35 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2018
-//    Level 0
-
-
 package random;
 
 import java.util.Random;
 
 import javax.swing.JOptionPane;
 
-public class Magic8Ball {
+public class Lottery {
 	
 	public static void main(String[] args) {
 		
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
+		int randomNumber = randomMaker.nextInt(10);
 		
 		
 		System.out.println(randomNumber);
 		
-		JOptionPane.showInputDialog("Ask a question:");
+		int firstNum = randomMaker.nextInt(10);
+		System.out.println(randomNumber);
+		int secondNum = randomMaker.nextInt(10);
+		System.out.println(randomNumber);
+		int thirdNum = randomMaker.nextInt(10);
+		System.out.println(randomNumber);
+		int fourthNum = randomMaker.nextInt(10);
+		System.out.println(randomNumber);
+		int fifthNum = randomMaker.nextInt(10);
 		
-		if (randomNumber == 0) {
-			JOptionPane.showMessageDialog(null, "Yes");
-		} else if (randomNumber == 1) {
-			JOptionPane.showMessageDialog(null, "No");
-		} else if (randomNumber == 2) {
-			JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
-		} else if (randomNumber == 3) {
-			JOptionPane.showMessageDialog(null, "Nope");
-		}
+
+			JOptionPane.showMessageDialog(null, "This is your lottery ticket:  " + firstNum + secondNum + thirdNum + fourthNum + fifthNum);
+
+				
+				
 
 		
 		
