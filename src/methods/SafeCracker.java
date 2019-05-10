@@ -19,6 +19,10 @@ public class SafeCracker {
 		 * combinations
 		 */
 		
+		int i = 1;
+		for (i = 1; i < 10000000; i++) {
+			tryCode(i);
+		}
 
 	}
 
@@ -32,6 +36,8 @@ public class SafeCracker {
 			playTheSoundOfSuccess();
 			System.exit(0);
 		}
+		
+		
 	}
 
 	private static void playTheSoundOfSuccess() {

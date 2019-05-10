@@ -10,7 +10,7 @@ public class IntroToRandom {
 		
 		Random rand = new Random();
 		
-		int r = rand.nextInt((75-25)+1) + 25;
+		int r = rand.nextInt((310)) + -222;
 		
 		System.out.println(r);
 		

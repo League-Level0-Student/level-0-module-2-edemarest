@@ -26,7 +26,7 @@ public class Lottery {
 		int fifthNum = randomMaker.nextInt(10);
 		
 
-			JOptionPane.showMessageDialog(null, "This is your lottery ticket:  " + firstNum + secondNum + thirdNum + fourthNum + fifthNum);
+			JOptionPane.showMessageDialog(null, "This is your lottery ticket:  " + firstNum + " " + secondNum +" " + thirdNum + " " + fourthNum + " " + fifthNum);
 
 				
 				
